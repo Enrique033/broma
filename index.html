@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bromas 2.0 EESC</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <h1>Divierte causa 😂🎉</h1>
+    <button id="startButton">¡Haz clic aquí especial!</button>
+
+    <div id="options" class="hidden">
+        <h2>¿Qué quieres hacer?</h2>
+        <div class="button-group">
+            <button class="optionButton" id="jokeButton">Quiero escuchar una broma.</button>
+            <button class="optionButton" id="factButton">Cuéntame un dato curioso.</button>
+            <button class="optionButton" id="adviceButton">Necesito un consejo divertido.</button>
+            <button class="optionButton" id="riddleButton">¡Dame un acertijo!</button>
+        </div>
+    </div>
+
+    <div id="result" class="hidden"></div>
+    <button id="anotherButton" class="hidden">¿Quieres otra? 😊</button>
+    <div id="scoreBoard" class="hidden">
+        <h2>Tu puntuación: <span id="score">0</span></h2>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 ChatGPT. Todos los derechos reservados.</p>
+    </footer>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
